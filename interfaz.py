@@ -13,13 +13,13 @@ import subprocess
 from datetime import datetime
 
 # Configuración de la base de datos Access
-DB_PATH = "C:/Users/sergio/Desktop/guias.accdb"
-TABLE_NAME = "Copia de Registro"
-COLUMN_GUIA = "GUIA"
-COLUMN_OFICIO = "OFICIO"
-TABLE_NOTIF = "Copia de notificaciones_e2"
-COLUMN_FECHA_NOTIF = "f_notif_oficio"
-COLUMN_VIA_NOTIF = "via_notif"  # Nueva columna para vía de notificación
+DB_PATH = ""
+TABLE_NAME = ""
+COLUMN_GUIA = ""
+COLUMN_OFICIO = ""
+TABLE_NOTIF = ""
+COLUMN_FECHA_NOTIF = ""
+COLUMN_VIA_NOTIF = ""  # Nueva columna para vía de notificación
 
 # Carpeta temporal para almacenar los archivos
 TEMP_FOLDER = os.path.join(tempfile.gettempdir(), "pdf_temporales")
